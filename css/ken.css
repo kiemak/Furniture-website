@@ -33,11 +33,43 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: x-large;
 }
+.intro{
+    text-align: center;
+    background-color: bisque;
+}
 .home1{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
-    background-color: darkseagreen;
+    background-color:lightblue;
+    font-size: large;
+    border-radius: 50px 50px 50px 50px;
+}
+.home2{
+    width: 100%;
+}
+.home2 .pp1{
+    margin: inherit;
+    border-radius: 50px 50px 50px 50px;
+    background-color: lightblue;
+    width: 45%;
+    float: left;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-style: italic;
+}
+
+.home2 .pp2{
+    margin: inherit;
+    border-radius: 50px 50px 50px 50px;
+    background-color: lightblue;
+    width: 50%;
+    float: right;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-style: italic;
 }
 
 .table1{
@@ -167,6 +199,16 @@ h1{
     float: left;
     display: table-cell;
 }
+.cabinet11{
+    padding-left: 20px;
+    float: left;
+    display: table-cell;
+}
+.cabinet12{
+    padding-left: 20px;
+    float: left;
+    display: table-cell;
+}
 .seat1{
     padding-left: 20px;
     float: right;
@@ -234,7 +276,20 @@ h1{
 }
 .contact1{
     text-align: center;
-    background-color:darkseagreen;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
 }
+.form1 {
+    padding: 100px;
+    text-align: center;
+    background-color: lightblue;
+  }
+  .card{
+      border: none;
+  }
+  .card-body{
+      background-color: chocolate;
+      border-radius: 50%;
+      margin: auto;
+      padding: 40px;
+  }
